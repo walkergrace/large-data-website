@@ -1,8 +1,8 @@
 # Category Description Diagram
 
 ##1. High
-- Information on Category
-- Discriptive Images and Videos
+- List of Sumo Moves and description
+- Discriptive Images and Videos to help show move
 - Links to other topics in category
 
 

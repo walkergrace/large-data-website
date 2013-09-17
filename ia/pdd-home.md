@@ -4,6 +4,8 @@
 
 - Link to 2013 schedule and stats
 - Link to List of Sumo Wrestlers
+- Link to Sumo Moves
+- Link to History of Sumo Wrestling
 - Search Bar
 
 
