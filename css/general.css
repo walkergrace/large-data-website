@@ -35,6 +35,18 @@ strong {
 	width: 100%;
 }
 
+.grid {
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+}
+
+.unit-spacer {
+	padding: 1em;
+}
+
 .nav {
 	background-color:rgba(116,38,20,1.00);
 	overflow: hidden;
@@ -113,13 +125,4 @@ strong {
 }
 
 
-	
-	
-			
-@media only screen and (min-width: 100em) {
-	html {
-		font-size: 120%;
-	}
-	
-}
 
