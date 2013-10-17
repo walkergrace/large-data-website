@@ -1,0 +1,128 @@
+html {
+	font: normal 80%/1.4 sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 1.75rem;
+	padding-bottom: 1rem;
+}
+
+strong {
+	color: rgba(168,74,37,1.00);
+}
+
+.colour {
+	background-color: rgba(87,17,12,1.00);
+	color:rgba(255,255,255,1.00);
+}
+
+.colour-two {
+	background-color: rgba(168,74,37,1.00);
+	color: rgba(255,255,255,1.00);
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+.grid {
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+}
+
+.unit-spacer {
+	padding: 1em;
+}
+
+.nav {
+	background-color:rgba(116,38,20,1.00);
+	overflow: hidden;
+	padding: 0;
+}
+
+.nav li {
+		width: 100%;
+	}
+
+.nav > ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0.5rem;
+	padding-left: .5rem;
+	padding-right: 2rem;
+
+	list-style-type: none;
+	font-size: 1.25rem;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 0.5rem 10px;
+
+	border: 0;
+
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: rgba(116,38,20,1.00);
+
+	color: #fff;
+}
+
+.nav-top {
+	max-height: 0;
+}
+
+
+.nav-top[data-state="expanded"] {
+	max-height: 20rem;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	display: inline-block;
+	height: 40px;
+	overflow: hidden;
+	width: 44px;
+
+	background: transparent url("images/icon-nav.svg") no-repeat 0 0;
+	border: 0;
+
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color:rgba(116,38,20,1.00);
+	background-position: 0 -40px;
+}
+
+.nav-btn[data-state="active"] {
+	background-color:rgba(116,38,20,1.00);
+	background-position: -46px -40px;
+}
+
+
+
