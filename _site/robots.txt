@@ -1,2 +1,0 @@
-sitemap:http://sumowrestling.com/sitemap.xml
-user-agent: *
