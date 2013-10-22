@@ -54,6 +54,7 @@ nav {
 }
 
 nav li {
+	color: #ffffff;
 	font-size: 1.2rem;
 	list-style-type: none;
 	display: inline-block;
@@ -63,6 +64,33 @@ nav li {
 nav ul {
 	padding: 1rem;
 	margin: 0;
+}
+/*unvisted link*/
+nav:link {
+	text-decoration: none;
+	color: rgba(168,74,37,1.00)
+
+}
+/*visited link*/
+nav:visited {
+	text-decoration: none;
+	color: rgba(168,74,37,1.00)
+
+
+}
+/*mouse over link*/
+nav:hover {
+	text-decoration: none;
+	color: rgba(168,74,37,1.00)
+
+
+}
+/*selected link*/
+nav:active {
+	text-decoration: none;
+	color: rgba(168,74,37,1.00)
+
+
 }
 
 .media-img-reversed {
