@@ -7,7 +7,7 @@
 .opera-only :-o-prefocus,
 .grid {
   word-spacing: -0.43em;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .unit {
   display: inline-block;
