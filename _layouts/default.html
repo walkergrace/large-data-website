@@ -29,18 +29,19 @@
 
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-			<img src="http://placehold.it/1000x700" class="flex-img" alt="">
+			<img src="img/sumo1.png" class="flex-img" alt="">
 		</div>
 		<div class="unit unit-s-hidden unit-m-1-3 unit-l-1-3">
-			<img src="http://placehold.it/1000x700" class="flex-img" alt="">
+			<img src="img/sumo2.png" class="flex-img" alt="">
 		</div>
 		<div class="unit unit-s-hidden unit-m-1-3 unit-l-1-3">
-			<img src="http://placehold.it/1000x700" class="flex-img" alt="">
+			<img src="img/sumo4.png" class="flex-img" alt="">
 		</div>
 	</div>
 
 	<div class="grid colour">
-		<nav class="unit unit-s-1-2">
+		<a href="#nav" class="unit unit-s-1-2 nav-btn">☰</a>
+		<nav class="unit unit-s-1-2 nav-top" data-state="expanded">
 			<ul>
 				<li><a href="{{site.baseurl}}aboutsumo.html">About Sumo</a></li>
 				<li><a href="{{site.baseurl}}sport-of-sumo.html">Sport of Sumo</a></li>
@@ -56,6 +57,22 @@
 
 
 {{content}}
+
+
+	<footer>
+		<nav id="nav" class="nav-bottom">
+			<ul>
+				<li><a href="{{site.baseurl}}aboutsumo.html">About Sumo</a></li>
+				<li><a href="{{site.baseurl}}sport-of-sumo.html">Sport of Sumo</a></li>
+				<li><a href="{{site.baseurl}}sumo-2013.html">Sumo 2013</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+
+
+
+<script src="js/nav.js"></script>
 
 </body>
 

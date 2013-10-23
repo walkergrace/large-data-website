@@ -3,18 +3,19 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="92px" height="80px" viewBox="0 0 92 80" enable-background="new 0 0 92 80" xml:space="preserve">
+<rect y="40" fill="#231F20" width="92" height="40"/>
 <g id="open">
-	<rect x="13" y="12" fill="#FFFFFF" width="20" height="3"/>
-	<rect x="13" y="19" fill="#FFFFFF" width="20" height="3"/>
-	<rect x="13" y="26" fill="#FFFFFF" width="20" height="3"/>
+	<rect x="13" y="12" fill="#231F20" width="20" height="3"/>
+	<rect x="13" y="19" fill="#231F20" width="20" height="3"/>
+	<rect x="13" y="26" fill="#231F20" width="20" height="3"/>
 </g>
 <g id="open_1_">
 	<rect x="13" y="52" fill="#FFFFFF" width="20" height="3"/>
 	<rect x="13" y="59" fill="#FFFFFF" width="20" height="3"/>
 	<rect x="13" y="66" fill="#FFFFFF" width="20" height="3"/>
 </g>
-<rect x="58.99" y="18.495" transform="matrix(0.7071 0.7071 -0.7071 0.7071 34.3442 -42.9253)" fill="#FFFFFF" width="19.996" height="2.999"/>
-<rect x="58.996" y="18.512" transform="matrix(0.7071 -0.7071 0.7071 0.7071 6.0578 54.6468)" fill="#FFFFFF" width="19.996" height="2.999"/>
-<rect x="58.995" y="58.488" transform="matrix(0.7071 0.7071 -0.7071 0.7071 62.6256 -31.2156)" fill="#FFFFFF" width="19.996" height="3"/>
-<rect x="58.991" y="58.505" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -22.223 66.3573)" fill="#FFFFFF" width="19.996" height="2.999"/>
+<rect x="58.99" y="18.495" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 103.631 82.9138)" fill="#231F20" width="19.996" height="2.999"/>
+<rect x="58.996" y="18.512" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 131.9296 -14.6244)" fill="#231F20" width="19.996" height="2.999"/>
+<rect x="58.995" y="58.487" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 75.3614 151.1895)" fill="#FFFFFF" width="19.996" height="3"/>
+<rect x="58.99" y="58.505" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 160.1999 53.6517)" fill="#FFFFFF" width="19.996" height="2.999"/>
 </svg>
