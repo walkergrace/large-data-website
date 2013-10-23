@@ -8,12 +8,26 @@
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!--FACEBOOK-->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Sumo Wrestling - Discover the ancient Japanese sport">
+  <meta property="og:url" content="http://www.sumowrestling.com">
+  <!-- Image dimensions: minimum 200x200; recommended 1500x1500 -->
+  <meta property="og:image" content="http://fullurl.com/to-this/image.jpg">
+  <meta property="og:site_name" content="Sumo.com">
+  <meta property="og:description" content="Description of this page, same as meta description">
+  <!--TWITTER-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sumo Wrestling - Discover the ancient Japanese sport">
+  <meta name="twitter:url" content="http://sumowrestling.com">
+  <meta name="twitter:description" content="Description of this page, same as meta description">
+  <!-- The image should be 120x120 pixels in dimension -->
+  <meta name="twitter:image" content="http://fullurl.com/to-this/image.jpg">
 </head>
 
 <body>
 
 	<div class="grid">
-
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
 			<img src="http://placehold.it/1000x700" class="flex-img" alt="">
 		</div>
@@ -25,17 +39,26 @@
 		</div>
 	</div>
 
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}aboutsumo.html">About Sumo</a></li>
-			<li><a href="{{site.baseurl}}sport-of-sumo.html">Sport of Sumo</a></li>
-			<li><a href="{{site.baseurl}}sumo-2013.html">Sumo 2013</a></li>
-			<li><a class="media-title" href="{{site.baseurl}}index.html"><strong>SUMO</strong>.com</a><li>
-		</ul>
-	</nav>
+	<div class="grid colour">
+		<nav class="unit unit-s-1-2">
+			<ul>
+				<li><a href="{{site.baseurl}}aboutsumo.html">About Sumo</a></li>
+				<li><a href="{{site.baseurl}}sport-of-sumo.html">Sport of Sumo</a></li>
+				<li><a href="{{site.baseurl}}sumo-2013.html">Sumo 2013</a></li>
+			</ul>
+		</nav>
+		<nav class="unit unit-s-1-2">
+			<ul>
+				<li><a href="{{site.baseurl}}index.html"><img src="img/sumologo.svg" class="flex-img"></a></li>
+			</ul>
+		</nav>
+	</div>
 
 
 {{content}}
 
 </body>
+
+<footer>
+
 </html>

@@ -1,2 +1,2 @@
-sitemap:http://sumowrestling.com/sitemap.xml
+sitemap: http://sumowrestling.com/sitemap.xml
 user-agent: *
