@@ -1,5 +1,6 @@
 html {
 	font: normal 100%/1.4 sans-serif;
+	background-color: #dddebe;
 }
 
 body {
@@ -19,6 +20,9 @@ h1 {
 .colour {
 	background-color: rgba(87,17,12,1.00);
 	color:rgba(255,255,255,1.00);
+	height: 3em;
+	position:absolute;
+	width: 100%;
 }
 
 .colour-two {
@@ -27,9 +31,37 @@ h1 {
 }
 
 .flex-img {
-	display: block;
+	display: inline-block;
 	width: 100%;
 }
+
+.page {
+	padding: .5rem;
+
+}
+
+h1 {
+	padding-top: 2rem;
+	padding-bottom: .25rem;
+}
+
+h2 {
+	margin-top: 2rem;
+	margin-bottom: .25rem;
+}
+
+.logo {
+	float: right;
+	padding:  2% .5em 0 0 ;
+	min-width: 90px;
+	max-width: 200px;
+}
+
+
+.shift-down{
+	margin: 4em;
+}
+
 
 a {
 	text-decoration:none;
@@ -56,7 +88,7 @@ nav ul {
 nav:link,
 nav a:visited {
 	text-decoration: none;
-	color: rgba(168,74,37,1.00)
+	color: rgba(168,74,37,1.00);
 }
 
 nav a:hover,
@@ -67,7 +99,7 @@ nav a:active {
 
 }
 
-.nav-btn,
+.nav-btn ,
 .nav-btn:link,
 .nav-btn:visited {
 	padding: .7rem;
@@ -79,8 +111,8 @@ nav a:active {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: rgba(168,74,37,1.00);
-	background-position: 0 -40px;
+	color: #ffffff;
+	background-color: rgba(87,17,12,1.00);
 }
 
 
@@ -93,10 +125,30 @@ nav a:active {
 	padding-left: 1rem;
 }
 
+.nav-bottom li {
+	color: rgba(87,17,12,1.00);
+	font-size: 1rem;
+	display: block;
+	padding: .25rem;
+}
+
+.nav-bottom,
+.nav-bottom li:link,
+.nav-bottom li:visited {
+	text-decoration: none;
+	color:rgba(87,17,12,1.00);
+}
+.nav-bottom li:hover,
+.nav-bottom li:focus,
+.nav-bottom li:active {
+	text-decoration: none;
+	background-color: rgba(87,17,12,1.00) ;
+	color: #ffffff;
+
+}
+
 .side-nav {
 	background-color: rgba(168,74,37,1.00);
-	display: block;
-	padding-left: .5rem;
 }
 
 .side-nav li {
@@ -105,20 +157,21 @@ nav a:active {
 	list-style-type: none;
 	display: block;
 	text-decoration: none;
-	padding-top: .25rem;
+	padding: .25rem;
 	}
 
-.side-nav,
-.side-nav:link,
-.side-nav:visited {
+.side-nav li,
+.side-nav li:link,
+.side-nav li:visited {
 	text-decoration: none;
-	color: rgba(168,74,37,1.00)
+	color:#ffffff;
 }
-.side-nav:hover,
-.side-nav:focus,
-.side-nav:active {
+.side-nav li:hover,
+.side-nav li:focus,
+.side-nav li:active {
 	text-decoration: none;
-	color: rgba(168,74,37,1.00)
+	color: #ffffff;
+	background-color: rgba(87,17,12,1.00);
 
 }
 
@@ -145,10 +198,22 @@ nav a:active {
 }
 
 
-@media only screen and (max-width: 38em) {
+@media only screen and (min-width: 38em) {
 
+.nav-btn {
+	display: none;
+}
 
+.nav-top[data-state="expanded"] {
+	display: block;
+	padding-left: 1rem;
+}
 
+.colour {
+	background-color: rgba(87,17,12,1.00);
+	color:rgba(255,255,255,1.00);
+	height: 3em;
+}
 
 
 }
