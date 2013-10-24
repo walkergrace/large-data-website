@@ -30,10 +30,6 @@ h1 {
 	display: block;
 	width: 100%;
 }
-.logo {
-	display: inline-block;
-	width: 60%;
-}
 
 a {
 	text-decoration:none;
@@ -57,27 +53,13 @@ nav ul {
 	padding: .5rem;
 	margin: 0;
 }
-/*unvisted link*/
-nav:link {
-	text-decoration: none;
-	color: rgba(168,74,37,1.00)
-
-}
-/*visited link*/
+nav:link,
 nav a:visited {
 	text-decoration: none;
 	color: rgba(168,74,37,1.00)
-
-
 }
-/*mouse over link*/
-nav a:hover {
-	text-decoration: none;
-	color: rgba(168,74,37,1.00)
 
-
-}
-/*selected link*/
+nav a:hover,
 nav a:active {
 	text-decoration: none;
 	color: rgba(168,74,37,1.00)
@@ -92,7 +74,6 @@ nav a:active {
 	color: #ffffff;
   text-decoration: none;
   background-color: rgba(87,17,12,1.00);
-
 }
 
 .nav-btn:hover,
@@ -110,6 +91,35 @@ nav a:active {
 .nav-top[data-state="collapsed"] {
 	display: block;
 	padding-left: 1rem;
+}
+
+.side-nav {
+	background-color: rgba(168,74,37,1.00);
+	display: block;
+	padding-left: .5rem;
+}
+
+.side-nav li {
+	color: #ffffff;
+	font-size: 1rem;
+	list-style-type: none;
+	display: block;
+	text-decoration: none;
+	padding-top: .25rem;
+	}
+
+.side-nav,
+.side-nav:link,
+.side-nav:visited {
+	text-decoration: none;
+	color: rgba(168,74,37,1.00)
+}
+.side-nav:hover,
+.side-nav:focus,
+.side-nav:active {
+	text-decoration: none;
+	color: rgba(168,74,37,1.00)
+
 }
 
 .media-img-reversed {
