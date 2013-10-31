@@ -1,5 +1,9 @@
 html {
 	font: normal 100%/1.4 sans-serif;
+	background-color: #ffec9b;
+	background-image: url("img/ricepaper.png");
+	background-repeat: repeat;
+
 }
 
 body {
@@ -78,6 +82,8 @@ nav li {
 	font-size: 1.2rem;
 	list-style-type: none;
 	text-decoration: none;
+	padding-top: .5rem;
+	padding-left: .5rem;
 	}
 
 nav ul {
@@ -88,7 +94,7 @@ nav a :link,
 nav a:visited {
 	text-decoration: none;
 	color: #ffffff;
-	padding-top: .5rem;
+	padding-right: 2rem;
 }
 
 nav a:hover,
@@ -122,19 +128,30 @@ nav a:active {
 
 .nav-top[data-state="collapsed"] {
 	display: block;
-	padding-left: 1rem;
+	padding-left: .5rem;
+}
+
+footer {
+	background-color: rgba(87,17,12,1.00);
+	color: #ffffff;
+	font-size: .5rem;
+}
+
+.copyright {
+	padding: .5rem;
 }
 
 .nav-bottom li {
 	color: rgba(87,17,12,1.00);
 	font-size: 1rem;
-	display: block;
+	display: inline-block;
 	padding: .25rem;
 }
 
 .nav-bottom,
 .nav-bottom li:link,
 .nav-bottom li:visited {
+	background-color:rgba(87,17,12,1.00);
 	text-decoration: none;
 	color:rgba(87,17,12,1.00);
 }
@@ -148,7 +165,7 @@ nav a:active {
 }
 
 .side-nav {
-	background-image: url("ricepaper.png");
+	background-color: rgba(168,74,37,1.00) ;
 }
 
 .side-nav li {
