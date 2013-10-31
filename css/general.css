@@ -1,6 +1,5 @@
 html {
 	font: normal 100%/1.4 sans-serif;
-	background-color: #dddebe;
 }
 
 body {
@@ -149,7 +148,7 @@ nav a:active {
 }
 
 .side-nav {
-	background-color: rgba(168,74,37,1.00);
+	background-image: url("ricepaper.png");
 }
 
 .side-nav li {
@@ -221,6 +220,10 @@ nav a:active {
 	background-color: rgba(87,17,12,1.00);
 	color:rgba(255,255,255,1.00);
 	height: 3em;
+}
+
+.side-nav {
+	position: fixed;
 }
 
 
