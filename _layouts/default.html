@@ -6,7 +6,7 @@
 	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
-	<script src="js/modernizer.js"></script>
+	<script src="{{site.baseurl}}/js/modernizer.js"></script>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -36,6 +36,7 @@
 		<li><a href="#navigation">Skip to navigation</a></li>
 	</ul>
 
+{% unless page.hidebanner == true %}
 	<div role="banner" class="grid">
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
 			<img src="{{site.baseurl}}/img/sumo3.png" class="flex-img" alt="two sumo wrestlers wrestling">
@@ -47,7 +48,7 @@
 			<img class="flex-img" src="{{site.baseurl}}/img/tokyotournament.jpg"  alt="two modern day sumo wrestlers">
 		</div>
 	</div>
-
+{% endunless %}
 	<div class="masthead">
 		<div class="grid">
 			<div class="unit unit-s-2-3 unit-m-2-3 unit-l-2-3">
@@ -90,6 +91,16 @@
 
 <script src="js/nav.js"></script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46001570-1', 'walkergrace.github.io');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 
