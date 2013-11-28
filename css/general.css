@@ -34,13 +34,13 @@ h1 {
 }
 
 .color {
-	background-color: rgba(87,17,12,1.00);
+	background-color: rgb(87,17,12);
 	color: #ffffff;
 }
 
 .colour-two {
-	background-color: rgba(168,74,37,1.00);
-	color: rgba(255,255,255,1.00);
+	background-color: rgb(168,74,37);
+	color: rgb(255,255,255);
 }
 
 .flex-img {
@@ -78,7 +78,7 @@ a {
 }
 
 .masthead {
-	background-color: rgba(87,17,12,1.00);
+	background-color: rgb(87,17,12);
 	/*padding: 1em;*/
 }
 
@@ -112,7 +112,7 @@ nav a:hover,
 nav a:focus
 nav a:active {
 	text-decoration: none;
-	color: rgba(168,74,37,1.00);
+	color: rgb(168,74,37);
 }
 
 
@@ -123,7 +123,7 @@ nav a:active {
 	padding: .7rem;
 	color: #ffffff;
   text-decoration: none;
-  background-color: rgba(87,17,12,1.00);
+  background-color: rgb(87,17,12);
 }
 
 .nav-btn:hover,
@@ -147,7 +147,7 @@ nav a:active {
 	text-decoration: none;
 	color: #ffffff;
 	padding-right: 2rem;
-	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	text-shadow: 0 1px 0 rgb(255,255,255);
 	border-width: 1px;
 	border-style: solid;
 	border-color: #fff #ccc #999 #eee;
@@ -164,8 +164,8 @@ nav a:active {
 .nav-top a:focus
 .nav-top a:active {
 	text-decoration: none;
-	color: rgba(168,74,37,1.00);
-	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+	color: rgb(168,74,37);
+	text-shadow: 0 1px 0 rgb(0,0,0);
 }
 
 .skiplinks {
@@ -215,7 +215,7 @@ a:focus {
 
 
 footer {
-	background-color: rgba(87,17,12,1.00);
+	background-color: rgb(87,17,12);
 	color: #ffffff;
 	font-size: .5rem;
 	position: absolute;
@@ -230,7 +230,7 @@ footer {
 }
 
 .nav-bottom li {
-	color: rgba(87,17,12,1.00);
+	color: rgb(87,17,12);
 	font-size: 1rem;
 	display: inline-block;
 	padding: .25rem;
@@ -239,22 +239,22 @@ footer {
 .nav-bottom,
 .nav-bottom li:link,
 .nav-bottom li:visited {
-	background-color:rgba(87,17,12,1.00);
+	background-color:rgb(87,17,12);
 	text-decoration: none;
-	color:rgba(87,17,12,1.00);
+	color:rgb(87,17,12);
 }
 .nav-bottom li:hover,
 .nav-bottom li:focus,
 .nav-bottom li:active {
 	text-decoration: none;
-	background-color: rgba(87,17,12,1.00) ;
+	background-color: rgb(87,17,12) ;
 	color: #ffffff;
 
 }
 
 .side-nav {
 	text-align: center;
-	background-color: rgba(168,74,37,1.00) ;
+	background-color: rgb(168,74,37) ;
 }
 
 .side-nav li {
@@ -279,7 +279,7 @@ footer {
 .side-nav a:active {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: rgba(87,17,12,1.00);
+	background-color: rgb(87,17,12);
 
 }
 
@@ -299,7 +299,7 @@ footer {
 }
 
 .read-more {
-	background-color: rgba(168,74,37,1.00);
+	background-color: rgb(168,74,37);
 	display: block;
 	margin: 1em -8px -8px -8px;
 	padding: 8px;
@@ -324,7 +324,7 @@ footer {
 }
 
 .colour {
-	background-color: rgba(87,17,12,1.00);
+	background-color: rgb(87,17,12);
 	color:rgba(255,255,255,1.00);
 	height: 3em;
 }
